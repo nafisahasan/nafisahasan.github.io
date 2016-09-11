@@ -40,7 +40,14 @@
     margin-bottom: 30px;
     margin-right: 100px;
     margin-left: 110px;
+
+
     }
+
+    .button:hover {
+      transition-duration: 1s;
+
+}
 
 
 }
