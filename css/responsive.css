@@ -32,14 +32,14 @@
   @media screen and (max-width: 440px) {
     .box {
       height: 300px;
-      width: 250px;
+      width: 290px;
     }
 
     .button {
       margin-top: 130px;
     margin-bottom: 30px;
     margin-right: 100px;
-    margin-left: 120px;
+    margin-left: 110px;
     }
 
 
