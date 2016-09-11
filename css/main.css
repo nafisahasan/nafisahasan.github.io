@@ -156,8 +156,8 @@ PORTFOLIO
 }
 
 .button {
-	border-color: #999;
-	border: 2px solid;
+	 border-color: #999;
+	 border: 2px solid;
     color: #999;
     padding: 13px 26px;
     font-size: 12px;
@@ -180,8 +180,8 @@ PORTFOLIO
 }
 
 .button:hover {
-	background: #999;
-	color: #fff;
+	background: #fff;
+  color: #999;
 	transition-property: background;
 	transition-duration: 2s;
 
