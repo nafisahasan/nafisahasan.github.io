@@ -25,4 +25,25 @@
     border-bottom: 5px solid #4e431e;;
     margin-bottom: 60px;
   }
+
+
+  }
+
+  @media screen and (max-width: 440px) {
+    .box {
+      height: 380px;
+      width: 350px;
+    }
+
+    .button {
+      margin-top: 150px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    margin-left: 130px;
+    }
+
+
+}
+
+
 }
