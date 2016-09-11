@@ -88,6 +88,110 @@ nav a {
 }
 
 /*************** 
+PORTFOLIO
+**************/
+
+.portfolio_project:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+
+}
+
+.box {
+  cursor: pointer;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  margin: 0 auto;
+  
+}
+
+
+.box img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  text-align: center;
+  
+}
+
+.box .button {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+
+.box .overtext {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+
+.box .title {
+  font-size: .5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+
+.box:hover .title,
+.box:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+.button {
+	border-color: #999;
+	border: 2px solid;
+    color: #999;
+    padding: 13px 26px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: 170px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    margin-left: 150px;
+    
+}
+
+.button:hover {
+	background: #999;
+	color: #fff;
+	transition-property: background;
+	transition-duration: 2s;
+
+}
+
+
+
+
+
+/*************** 
 FOOTER
 **************/
 
