@@ -30,21 +30,15 @@
   }
 
   @media screen and (max-width: 440px) {
-    .box {
-      height: 300px;
-      width: 290px;
+    .box img {
+      width: 360px;
     }
 
-    .button {
-      margin-top: 130px;
-    margin-bottom: 30px;
-    margin-right: 100px;
-    margin-left: 110px;
-
-
-    }
 
     .button:hover {
+      background: #fff;
+      color: #999;
+      transition-property: background;
       transition-duration: 1s;
 
 }
