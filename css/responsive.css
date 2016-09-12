@@ -30,10 +30,16 @@
   }
 
   @media screen and (max-width: 440px) {
-    .box img {
-      width: 280px;
-      height: 360px;
+     .box img {
+       width: 300px;
+      
     }
+
+   .button { margin-top: 100px;
+    margin-bottom: 180px;
+    margin-right: 100px;
+    margin-left: 150px;
+  }
 
 
     .button:hover {
